@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbs and Protein Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Carbs and Protein Calculator</h1>
+    <div class="input-container">
+      <label for="carbs">Enter Carbs in grams:</label>
+      <input type="number" id="carbs">
+    </div>
+    <div class="input-container">
+      <label for="protein">Enter Protein in grams:</label>
+      <input type="number" id="protein">
+    </div>
+    <div class="input-container">
+      <label for="current-mgdl">Enter current mg/dl:</label>
+      <input type="number" id="current-mgdl">
+    </div>
+    <button id="calculate">Calculate</button>
+    <div id="results">
+      <p><b>R for Carbs:</b> <span id="rCarbs"></span></p>
+      <p><b>Protein in ounces:</b> <span id="proteinOunces"></span></p>
+      <p><b>R for Protein:</b> <span id="rProtein"></span></p>
+      <p><b>R for Correction:</b> <span id="rCorrection"></span></p>
+      <p><b>Total R:</b> <span id="totalR"></span></p>
+    </div>
+    <div id="cardDeckContainer">
+      <!-- Card decks will be drawn here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
